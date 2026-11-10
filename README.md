@@ -31,6 +31,7 @@ Le scénario est programmé pour s'exécuter chaque lundi à 8 h, heure de Paris
 ### Capture du scénario
 
 ![Scénario Make](scenario_make.png.png)
+
 ## Planification
 
 Le scénario est programmé pour s'exécuter automatiquement **chaque lundi à 8 h**, heure de Paris.
