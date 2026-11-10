@@ -1,2 +1,34 @@
-# veille-emploi-data-analyst
-veille automatisée d'offres d'emploi pour Data Analyst avec Make,google Sheets et Discord.
+# Veille automatisée d'offres d'emploi Data Analyst
+
+## Présentation du projet
+
+Dans le cadre de ma formation Data Analyst, j'ai créé une automatisation avec Make pour effectuer une veille sur les offres d'emploi Data Analyst à Lille.
+
+L'objectif est de récupérer automatiquement les offres d'emploi, de les enregistrer dans Google Sheets et de recevoir des notifications sur Discord.
+
+## Fonctionnement
+
+Le scénario Make utilise quatre modules :
+
+1. **HTTP** : interroge l'API de recherche d'emploi OpenWeb Ninja pour récupérer les offres.
+2. **Iterator** : parcourt les offres récupérées une par une.
+3. **Google Sheets** : ajoute les informations de chaque offre dans un tableau de suivi.
+4. **HTTP** : envoie une notification dans un salon Discord grâce à un webhook.
+
+## Planification
+
+Le scénario est programmé pour s'exécuter automatiquement **chaque lundi à 8 h**, heure de Paris.
+
+## Outils utilisés
+
+- Make
+- API OpenWeb Ninja
+- Google Sheets
+- Discord
+- GitHub
+
+## Résultats
+
+Les tests ont permis de vérifier que les offres sont correctement ajoutées dans Google Sheets et que les notifications arrivent dans Discord.
+
+Le scénario est enregistré et activé.
