@@ -10,7 +10,7 @@ L'objectif est de récupérer automatiquement les offres d'emploi, de les enregi
 
 Le scénario Make utilise quatre modules :
 
-1. HTTP : interroge l'API JSearch, fournie par OpenWeb Ninja, pour récupérer les offres d'emploi.
+1. **HTTP** : interroge l'API JSearch, fournie par OpenWeb Ninja, pour récupérer les offres d'emploi.
 2. **Iterator** : parcourt les offres récupérées une par une.
 3. **Google Sheets** : ajoute les informations de chaque offre dans un tableau de suivi.
 4. **HTTP** : envoie une notification dans un salon Discord grâce à un webhook.
