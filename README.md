@@ -29,8 +29,7 @@ Mon scénario Make comporte quatre modules reliés entre eux :
 Le scénario est programmé pour s'exécuter chaque lundi à 8 h, heure de Paris.
 
 ### Capture du scénario
-
-![Scénario Make](https://github.com/emiliefarah/veille-emploi-data-analyst/raw/refs/heads/main/scenario-make.png.png)
+![Scénario Make](scenario.png)
 
 ## Planification
 
