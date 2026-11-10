@@ -48,3 +48,6 @@ Le scénario est programmé pour s'exécuter automatiquement **chaque lundi à 8
 Les tests ont permis de vérifier que les offres sont correctement ajoutées dans Google Sheets et que les notifications arrivent dans Discord.
 
 Le scénario est enregistré et activé.
+## Présentation détaillée du projet
+
+[📄 Consulter ma présentation](presentation-projet.md)
