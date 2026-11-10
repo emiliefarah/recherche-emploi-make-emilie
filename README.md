@@ -14,7 +14,23 @@ Le scénario Make utilise quatre modules :
 2. **Iterator** : parcourt les offres récupérées une par une.
 3. **Google Sheets** : ajoute les informations de chaque offre dans un tableau de suivi.
 4. **HTTP** : envoie une notification dans un salon Discord grâce à un webhook.
+ 
+## Schéma de l'automatisation
 
+Mon scénario Make comporte quatre modules reliés entre eux :
+
+**HTTP (JSearch) → Iterator → Google Sheets → HTTP (Discord)**
+
+- **HTTP (JSearch)** : recherche des offres d'emploi Data Analyst à Lille.
+- **Iterator** : traite chaque offre individuellement.
+- **Google Sheets** : enregistre les offres dans un tableau de suivi des candidatures.
+- **HTTP (Discord)** : envoie une notification avec les informations et le lien pour postuler.
+
+Le scénario est programmé pour s'exécuter chaque lundi à 8 h, heure de Paris.
+
+### Capture du scénario
+
+![Scénario Make](scenario_make.png)
 ## Planification
 
 Le scénario est programmé pour s'exécuter automatiquement **chaque lundi à 8 h**, heure de Paris.
