@@ -1,6 +1,6 @@
 # Veille automatisée d'offres d'emploi Data Analyst
 
-## Présentation du projet
+## Présentation du projet 
 
 Dans le cadre de ma formation Data Analyst, j'ai créé une automatisation avec Make pour effectuer une veille sur les offres d'emploi Data Analyst à Lille.
 
