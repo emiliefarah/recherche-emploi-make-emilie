@@ -30,7 +30,7 @@ Le scénario est programmé pour s'exécuter chaque lundi à 8 h, heure de Paris
 
 ### Capture du scénario
 
-![Scénario-Make](scenario_make.png.png)
+![Scénario Make](https://github.com/emiliefarah/veille-emploi-data-analyst/raw/refs/heads/main/scenario-make.png.png)
 
 ## Planification
 
