@@ -35,6 +35,22 @@ Le scénario est programmé pour s'exécuter chaque lundi à 8 h, heure de Paris
 
 Le scénario est programmé pour s'exécuter automatiquement **chaque lundi à 8 h**, heure de Paris.
 
+### Capture de la planification
+
+![Planification automatique Make](planification-make.png)
+
+## Résultats dans Google Sheets
+
+Les offres récupérées automatiquement sont enregistrées dans un tableau Google Sheets pour faciliter leur consultation et le suivi des candidatures.
+
+![Tableau de suivi Google Sheets](google-sheets.png)
+
+## Notifications Discord
+
+À chaque exécution, les offres d'emploi récupérées sont envoyées automatiquement dans un salon Discord avec le poste, l'entreprise, le lieu, le type de contrat et le lien pour postuler.
+
+![Notifications des offres sur Discord](discord.png)
+
 ## Outils utilisés
 
 - Make
